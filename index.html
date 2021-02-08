@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>injorme</title>
+	<link rel="stylesheet" type="text/css" href="estilito.css">
+</head>
+<body background="sis.jpg">
+	<div style="position: absolute; width: 1000px; height: 1100px; color: gray;" class="uno"></div>
+	<div style="position: absolute; left: 275px; top: 30px;"><img src="yatra.png"></div>
+	<div class="dos" onclick="funcion1();"><h4><center>Sumar</center></h4></div>
+    <div class="tres" onclick="funcion2();"><h4><center>Promedio</center></h4></div>
+	<div class="cuatro" onclick="funcion3();"><h4><center>Contar</center></h4></div>
+	<div class="cinco" onclick="funcion4();"><h4><center>Indice</center></h4></div>
+	<div class="seis" onclick="funcion5();"><h4><center>Buscar</center></h4></div>
+	<div class="extra" onclick="funcion6();"><h4><center>limpiar</center></h4></div>
+	<div class="extra2no" id="tre" onclick="funcion7();"><h4><center>buscarv</center></h4></div>
+	<div  class="siete7" id="one"><h3><center>Suma sirve para sumar 2 o mas elementos seleccionados de un rango como se muestra en la imagen<br><br><br> <img src="a1.png" class="siete1"></center></h3></div>
+	<div  class="ocho8" id="two"><h3><center>promedio sirve para calcular el promedio del rango de datos seleccionado como se ve en la imagen<br><br><br> <img src="a2.png" class="ocho1"></center></h3></div>
+	<div  class="nueve9" id="tree"><h3><center> contar sirve para contar y mostrar la cantidad de datos presentes en un rango de datos<br><br><br> <img src="a3.png" class="nueve1"></center></h3></div>
+	<div  class="diez10" id="four"><h3><center> indice sirve para traer un dato, insertando el número de fila y columna de una matriz seleccionada<br><br><br> <img src="a4.png" class="diez1"></center></h3></div>
+	<div  class="once11" id="five"><h3><center> buscar sirve para buscar un valor en una matriz seleccionada<br><br><br> <img src="a5.png" class="once1"></center></h3></div>
+	<div  class="doce12" id="six"><h3><center> la variable buscarv busca por columnas en la misma fila de una celda seleccionada<br><br><br> <img src="a6.png" class="doce1"></center></h3></div>
+
+
+</body>
+
+<script type="text/javascript">
+	
+var uno=document.getElementById('one');
+var dos=document.getElementById('two');
+var tres=document.getElementById('tree');
+var cuatro=document.getElementById('four');
+var cinco=document.getElementById('five');
+var seis=document.getElementById('six');
+var siete=document.getElementById('tre');
+
+
+
+
+function funcion1()
+{
+uno.className="siete";
+dos.className="ocho8";
+tres.className="nueve9";
+cuatro.className="diez10";
+cinco.className="once11";
+seis.className="doce12";
+siete.className="extra2no";
+
+}
+function funcion2()
+{
+uno.className="siete7";
+dos.className="ocho";
+tres.className="nueve9";
+cuatro.className="diez10";
+cinco.className="once11";
+seis.className="doce12";
+siete.className="extra2no";
+
+
+}
+function funcion3()
+{
+uno.className="siete7";
+dos.className="ocho8";
+tres.className="nueve";
+cuatro.className="diez10";
+cinco.className="once11";
+seis.className="doce12";
+siete.className="extra2no";
+
+
+}
+function funcion4()
+{
+uno.className="siete7";
+dos.className="ocho8";
+tres.className="nueve9";
+cuatro.className="diez";
+cinco.className="once11";
+seis.className="doce12";
+siete.className="extra2no";
+
+
+}
+function funcion5()
+{
+uno.className="siete7";
+dos.className="ocho8";
+tres.className="nueve9";
+cuatro.className="diez10";
+cinco.className="once";
+siete.className="extra2si";
+seis.className="doce12";
+
+
+}
+function funcion6()
+{
+uno.className="siete7";
+dos.className="ocho8";
+tres.className="nueve9";
+cuatro.className="diez10";
+cinco.className="once11";
+seis.className="doce12";
+siete.className="extra2no";
+
+
+}
+function funcion7()
+{
+uno.className="siete7";
+dos.className="ocho8";
+tres.className="nueve9";
+cuatro.className="diez10";
+cinco.className="once11";
+seis.className="doce";
+siete.className="extra2si";
+
+
+}
+</script>
+</html>
